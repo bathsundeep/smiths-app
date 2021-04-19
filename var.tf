@@ -1,7 +1,7 @@
-variable "ResourceGroupName" {
-    default = "TerraformRG"
+variable "project" {
+    default = "smiths"
 }
 
-variable "AzureLocation" {
+variable "location" {
     default = "eastus"
 }
